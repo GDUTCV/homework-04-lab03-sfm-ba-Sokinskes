@@ -23,3 +23,8 @@ To visualize, run:
 ```bash
 python visualize.py --dataset mini-temple  # visualize 3d point cloud from reconstruction.
 ```
+To test TA VS MINE
+```bash
+python test.py --dataset temple
+python test.py --dataset mini-temple
+```
